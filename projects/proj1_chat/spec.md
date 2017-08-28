@@ -8,7 +8,7 @@ This assignment (and the rest of the assignments in this class) should be implem
 
 - This project is due on Monday 9/11 at 11:59pm
 - This project should be completed individually (refer to the [course website](http://cs168.io) for collaboration policies)
-- The skeleton code for this project is available from [here](https://github.com/NetSys/cs168fall17_student/blob/master/projects/proj1_chat/). You can download the code manually from that page, or use git.
+- The skeleton code for this project is available from [here](https://github.com/NetSys/cs168fall17_student/tree/master/projects/proj1_chat). You can download the code manually from that page, or use git.
 - You'll submit your code using `ok`. You should submit two files: one named `client.py` and one named `server.py`. You should not modify or submit `utils.py`. More detailed submission instructions can be found in the [submission details](#submission-details) section.
 
 #### Resources
@@ -52,9 +52,9 @@ will block until there is data to receive from the client, and will return up to
 
 You'll need to do some reading to understand how all of these API calls work.  __In particular, be careful when using `send` and `recv`! `send`, for example, will not necessarily send all of the data passed into it.__  The [Python Socket Programming HOWTO](https://docs.python.org/2/howto/sockets.html) will likely be a useful resource.
 
-## Part 0 (to be completed in section)
+## Part 0 (Optional)
 
-The first part of the assignment will help you get started with the socket programming API and introduce you to basic client-server interaction.  __This part of the assignment will not be graded, and you'll complete it in section on 8/30.__
+The first part of the assignment will help you get started with the socket programming API and introduce you to basic client-server interaction.  __This part of the assignment is optional, will not be graded and is meant to get you familiar with sockets.__ The solution to this part will be released on Wednesday 8/30.
 
 For this part of the assignment, you'll write a simple client and server.  The client will send a single message from stdin to the server and then disconnect.  The server should print messages it receives to stdout.  If multiple clients connect to the server, the server should handle them sequentially (i.e., it should print the complete message from one client and close that connection before handling the next client).
 
@@ -254,7 +254,7 @@ Use `utils.CLIENT_WIPE_ME` to fix this issue (note that if you use this constant
 
 ##### Do I ever need to close the server socket?
 
-No. It's fine if your server code is inside of a `while True:` loop, like the server in Part 0 from section.
+No. It's fine if your server code is inside of a `while True:` loop, like the server in Part 0.
 
 ##### Should the client quit if the server disconnects?
 
