@@ -184,7 +184,7 @@ To use non-blocking sockets, you'll need to use the `select` call in the `select
 
 ## Submission Details
 
-You will be submitting your project on [okpy](http://okpy.org). When you visit the webpage, sign in using your Berkeley email. You should already be automatically registered as a student in the course. If this is not the case or you encounter any issues, please fill out this [form](https://goo.gl/forms/JdFQkp933jHH3kJm1).
+You will be submitting your project on [okpy](http://okpy.org). When you visit the webpage, sign in using your preferred email from bCourses (Unless you have changed it, this should default to your Berkeley email). You should already be automatically registered as a student in the course. If this is not the case or you encounter any issues, please fill out this [form](https://goo.gl/forms/JdFQkp933jHH3kJm1).
 
 You can then upload your project files into the "Project 1" assignment by selecting the assignment and then selecting to create a new submission. You will not be receiving any feedback from the autograder until the project is over, but you can submit as many times as you want. By default, your most recent submission will be graded. If you don't want this behavior, you can select to have a previous one graded instead.
 
@@ -263,6 +263,10 @@ Yes.  The client should quit and print the appropriate error message from `utils
 ##### How will our code be tested?
 
 We'll do end-to-end tests using your client and server together, and we'll also do tests where we use our own client to interact with your server (and vice versa).  As a result, you should make sure that your client and server communicate as described in this document.
+
+ ##### I'm running Windows and select isn't working.
+  
+Unfortunately, stdin does not count as a socket in Windows due to how file descriptors work differently. Since the tests will be run on a Linux machine, this will cause issues if you write the code to use the Windows version of file descriptors. Your options are to download a Linux virtual machine, or use the instructional servers through SSH, or use the lab machines to test your code. Side note: If you are using Windows 10, you can use the Linux subsystem for Windows and run your code from there and it may work.
 
 ### Acknowledgments
 
