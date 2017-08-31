@@ -23,7 +23,7 @@ CLIENT_WIPE_ME = "\r    "
 # The client sent a control message (a message starting with "/") that doesn't exist
 # (e.g., /foobar).
 SERVER_INVALID_CONTROL_MESSAGE = \
-  "{} is not a valid control message. Valid messages are /create, /list, and /join."
+  "{0} is not a valid control message. Valid messages are /create, /list, and /join."
 
 # Message returned when a client attempts to join a channel that doesn't exist.
 SERVER_NO_CHANNEL_EXISTS = "No channel named {0} exists. Try '/create {0}'?"
