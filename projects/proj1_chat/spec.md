@@ -242,12 +242,12 @@ For this assignment, you must use fixed-length messages.  If you're curious abou
 
 You can start writing at the beginning of the current line of stdout by using "\r" at the beginning of the message you output.  One thing to be careful about is messages from the server that are shorter than the length of the "[Me]" string. For example, suppose the client sends the `/list` command to the server, and one of the channels is named "A".   The output should look like:
 
-    /list
+    [Me] /list
     A
 
 But if you're not careful, you'll end up with output that looks like:
 
-    /list
+    [Me] /list
     AMe]
     
 Use `utils.CLIENT_WIPE_ME` to fix this issue (note that if you use this constant, you'll need a "\r" at the beginning of the next string printed to avoid extra whitespace).
