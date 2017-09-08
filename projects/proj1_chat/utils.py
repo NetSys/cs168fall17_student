@@ -37,7 +37,7 @@ SERVER_CLIENT_JOINED_CHANNEL = "{0} has joined"
 # Message sent to all clients in a channel when a client leaves.
 SERVER_CLIENT_LEFT_CHANNEL = "{0} has left"
 
-# Message sent to a client that tries to create a channel that doesn't exist.
+# Message sent to a client that tries to create a channel that already exists.
 SERVER_CHANNEL_EXISTS = "Room {0} already exists, so cannot be created."
 
 # Message sent to a client that uses the "/create" command without a channel name.
