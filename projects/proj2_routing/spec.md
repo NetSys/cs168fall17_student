@@ -8,6 +8,7 @@ In this assignment, you'll implement distance-vector routing, a distributed rout
 - This project should be completed **individually**. You may share your tests with anyone in the class.
 - The skeleton code for this project is available on [GitHub](https://github.com/NetSys/cs168fall17_student/blob/master/projects/proj2_routing/). You can download the code manually from that page, or use Git.
 - You'll submit your code using `ok`. You should submit two files: one named `learning_switch.py` and one named `dv_router.py`. You should write your own tests by adding files to `tests/` and `topos/`, but no need to submit them. Don't modify `simulator.py` or anything in `sim/`. More detailed submission instructions can be found in the [submission details](#submission-details) section.
+- You may develop this project using the operating system of your choice (Windows, Mac OS X and Linux systems should all work) and using either Python 2 or Python 3. **However, make sure your code runs using Python 2 on the instructional (Unix) machines, because this is what we will be using to grade the code**
 
 #### Resources
 
@@ -93,6 +94,10 @@ You can then upload your project files into the "Project 2" assignment by select
 ## Changelog
 
 Updates/changes to the project will go here
+
+#### 18 September 2017
+
+- Clarify in "Logistics" that the project can be completed on Windows, Linux or Mac OS X, and in either Python 2 or 3, provided that the submitted project runs on a Linux system using Python 2
 
 ## Acknowledgments
 
