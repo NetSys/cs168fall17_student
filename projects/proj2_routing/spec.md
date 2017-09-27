@@ -99,6 +99,11 @@ Updates/changes to the project will go here
 
 - Clarify in "Logistics" that the project can be completed on Windows, Linux or Mac OS X, and in either Python 2 or 3, provided that the submitted project runs on a Linux system using Python 2
 
+#### 27 September 2017
+
+- Change `netvis` to `NetVis` for case-sensitive filesystems
+- Add notes to `simulator_guide.md` for Windows installation
+
 ## Acknowledgments
 
 This assignment was developed by Murphy McCauley in [Fall 2011](https://inst.eecs.berkeley.edu/~ee122/fa11/).
