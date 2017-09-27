@@ -130,6 +130,7 @@ shortcuts). Here's how to get NetVis running:
     `netvis/code/json/src/build.sh` and answer the prompt.
     - **Note**: It may ask for the location of `rt.jar`, which can be found in the `processing` directory you downloaded in Step 1.
       Provide an **absolute** path to the prompt (e.g. `/Users/gabe/...` or `/home/gabe/...` instead of `~/...`)
+    - **Note**: If you are running Windows and have trouble running this step, look at [the appendix](#windowsinstall)
 
 5.  In Processing, go to File → Open..., and open up `netvis/NetVis.pde`.
     - **Note**: If you're seeing an error such as "No module named Graph", try starting Processing from inside the `netvis` folder.
@@ -418,3 +419,50 @@ the simulator:
 The latter is a plain old console application, which you can run in a
 separate console (e.g., a new Terminal window on a Mac or a new ssh
 session if you’re running the simulator on a remote machine).
+
+
+# <a name="windowsinstall"></a>Building the JSON library on Windows
+
+If you're using the [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/about) or [Cygwin](https://www.cygwin.com/),
+you may have trouble running the `build.sh` script for the JSON library. The `find` command has issues with Windows-style paths, so we can hardcode the path of the `rt.jar` in the file, and the rest seems to work well:
+
+Replace the contents of `build.sh` with the following:
+
+```
+#!/bin/bash
+set -x
+
+cd "$(dirname "$0")"
+
+echo "Enter path to where rt.jar can be found (e.g., the correct JDK)."
+echo "At least on a Mac, you can just drag/drop the Processing app here!"
+echo "You can also try just hitting enter to ignore this."
+
+
+bcp="C:\path to your rt.jar file for Processing"
+flag="-bootclasspath"
+
+javac -source 1.7 -target 1.7 json/*.java $flag "$bcp"
+
+if [ "$?" -ne 0 ]; then
+  echo "Java 1.7 failed.  Trying 1.6."
+
+  javac -source 1.6 -target 1.6 json/*.java $flag "$bcp"
+
+  if [ "$?" -ne 0 ]; then
+    echo "Error compiling."
+    exit 2
+  fi
+fi
+
+echo "Jarring..."
+
+jar -cvf ../../json.jar json/*.class
+
+if [ "$?" -ne 0 ]; then
+  echo "Error jarring."
+  exit 3
+fi
+
+echo "Looks good.  You *may* need to restart Processing."
+```
