@@ -1,5 +1,9 @@
 # Frequently Asked Questions
 
+### What is a port vs a link vs a switch/router vs a host?
+
+![components](components.png)
+
 ### How will our code be tested?
 
 We will put your routers through a variety of scenarios like the test cases included with the project. These scenarios will involve different topologies, topology changes, and link failures, and your routers will be graded on how well they deliver packets, adapt to changes, and conform to the requirements. These tests will be more extensive than the tests included with the project in `tests/`, and passing those tests is no guarantee that your code will pass all of our tests.
