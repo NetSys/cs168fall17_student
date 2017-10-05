@@ -382,7 +382,7 @@ The first included test is `test_simple.py`, which just creates a small topology
 and sends a couple pings, making sure the right number of pings arrive. Let’s
 try it using the hub:
 
-    $ python simulator.py --no-interactive --default-switch-type=examples.hub examples.test_simple
+    $ python simulator.py --no-interactive --default-switch-type=examples.hub tests.test_simple
 
 Note that we use `--no-interactive` to start the simulator without the
 Python console for the purposes of testing.
