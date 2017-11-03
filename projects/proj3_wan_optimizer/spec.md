@@ -299,4 +299,4 @@ This means that the client on the receiving side is never receiving a packet tha
 
 ## Changelog
 
-Updates/changes to the project will go here.#
+Updates/changes to the project will go here.
