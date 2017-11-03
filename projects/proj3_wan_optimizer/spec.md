@@ -296,3 +296,7 @@ If you see messages like
     IOError: [Errno 2] No such file or directory: 'client4-sample.txt'
     
 This means that the client on the receiving side is never receiving a packet that has `is_fin` set to true, so isn't saving the received data to a file.  Check to make sure that the WAN optimizer on the receiving end is correctly sending FIN packtes.
+
+## Changelog
+
+Updates/changes to the project will go here.#
