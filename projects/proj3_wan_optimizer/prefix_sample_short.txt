@@ -1,0 +1,50 @@
+Reviews:
+
+ Awesome class. Down to earth professor. Caring TAs. :)
+
+Awesome professor. Super nice and open to helping you with anything. Definitely one of my favorite professors at Cal.
+
+really smart, definitely knows his stuff. exams are fair
+
+Scott Shenker
+
+Great instructor, very inspiring and really encourages students to think outside the box. Very oriented toward concepts and critical thinking, not so much toward details. He is responsive on Piazza and makes funny jokes. Projects this semester were very interesting, but grading could've been much better defined - sometimes the grades that came back were a complete surprise. He also does go very quickly through slides sometimes though.
+Scott Shenker
+
+
+Shenker is a great professor. The material is inherently boring (a lot of basic stuff that is easy to learn on your own). Nonetheless though, projects seem a bit irrelevant and tedious. They are not hard though, so there's no reason for complaining. It's just time consuming and not necessary for doing well in the course
+
+[Shenker]: a god among educators. He's willing to explain and keep trying to explain something to you until you get it. If you start falling asleep in his lectures, he thinks he's the one failing. He knows when the material he's presenting is dry or bland, which it occasionally is, but does his best to mask it through entertaining anecdotes full of colorful language and trashing big figures and big companies. Sometimes has pretty educational lecture activities where students stand up and yell things at each other to simulate routing. [Homeworks]: pretty good at making you review concepts, the homeworks + slides are enough to do really well on exams [Projects]: the biggest con of the class, but they're not too bad if you just sit down and hack the hours away; most of the programming is just tedious busywork that you don't learn much from (but hey now you've built a firewall and know Python much better) [Exams]: The only exams which I've ever enjoyed taking. You actually feel tested and it feels possible to get a perfect on them.
+
+A remarkable professor and class. Shenker is a big-picture, no-nonsense, and passionate guy who truly cares about his students. Instead of just bogging you the fundamentals of internet architecture, he makes sure his students think about the big picture. He was extremely active on Piazza, answering questions almost on a daily basis. Exams are straightforward and not meant to trick you. The only minor complaint I would have is that some of the projects were tedious, but they were a small price to pay for a great class.
+
+Moderately interesting material. Shenker's a great lecturer. But most things about this class absolutely suck. The projects are uninspired, badly designed, and have arbitrary grading. The homeworks could have been better written by chimpanzees. The exams were beyond any reasonable level of terribleness. Class was practically ruined for me by one of the GSIs, who was incredibly unhelpful and demeaning. Oh, and he happened to write the "spec" for two of the projects -- and botched it so badly I have no idea how they allow people that incompetent to teach. But MAN, people have such a rose-tinted view of this class. Definitely take the other reviews with a grain of salt. Yes, the class is easier than most other EECS classes. Yes, Shenker is probably one of the best lecturers in EECS (not that that's saying much..) I learned things that will no doubt be useful to me. But this class made me lose interest in networking completely. This class is absolutely worth skipping.
+
+Best run class I've taken. Professor Shenker's a GREAT professor, and his TA's care a lot. If you ask a question, you're guaranteed to get an answer within the hour, no matter what time of day. Shenker's funny, his lectures are stimulating, and networks are really applicable. It's quite interesting to see how what we see every day actually works. The projects are really fun, and they're graded fairly. The exams were too easy, but they were fair as it were. Definitely a great class to take, and Shenker is REALLY excellent. He cares a ton, and that gets reflected in everything about this class.
+
+ Awesome class. Down to earth professor. Caring TAs. :)
+
+Awesome professor. Super nice and open to helping you with anything. Definitely one of my favorite professors at Cal.
+
+really smart, definitely knows his stuff. exams are fair
+
+Shenker is an amazing professor whose main focus is to help you learn and understand the material. The projects in the class were new when I took it but they were interesting and there was plenty of help on Piazza from the GSIs responsible for them.
+
+Totally awesome professor. Shenker tried really hard to get the class more involved in his lectures. He was helpful during office hours, for the few I attended. TAs were also a great help there too. Projects were somewhat poorly spec-graded. other than that, tests were like his practice problems. Homework was easy, given all the piazza questions that Shenker personally answered
+
+Totally awesome professor. Grading system was very fair and there were absolutely no surprises if you attended lecture. Exams could have done without those "Scott Shenker says __" questions but overall a very well redesigned course. Projects were reasonable and doable even though they were experimental.
+
+generally an awesome professor. fair exams, fair homeworks, excellent lectures, helpful TA's. my favorite class this semester and possibly my time here at Berkeley
+
+Excellent lecturer, connects well as an individual, brilliant, and funny.
+
+
+Great instructor, very inspiring and really encourages students to think outside the box. Very oriented toward concepts and critical thinking, not so much toward details. He is responsive on Piazza and makes funny jokes. Projects this semester were very interesting, but grading could've been much better defined - sometimes the grades that came back were a complete surprise. He also does go very quickly through slides sometimes though.
+
+Scott Shenker is, flat out, a truly amazing person. He is one of the most inspiring people I've ever had the pleasure of meeting, and his critical approach towards the theoretical underpinnings of computer science are mindblowing. I would love to study under Scott for the rest of my career (both at Berkeley and beyond) if I had the chance. Assignments felt like a necessary evil. They weren't nearly as stimulating as lectures, discussions, or office hours. Exams were just kinda funny (thanks to the GSIs' sense of humor), but I don't like exams in general.
+
+very nice, considerate professo
+
+Very average class. Homework is easy, projects are easy but very boring and repetitive, tests are fairly easy as well. Doesn't really use the book - just show up to lecture and listen, and it's a pretty easy A. He is very enthusiastic about networking and cracks jokes all the time, so lecture is pretty interesting, especially compared to other CS/EE profs.
+
+
