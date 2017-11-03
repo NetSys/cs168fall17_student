@@ -18,7 +18,6 @@ A WAN Optimizer is a concrete example of a middlebox application that violates t
 
 - This assignment should be implemented in Python 2.
 - The project is due on Friday, November 17th, at 11:59pm.
-- The skeleton code for this project is available from [here](https://github.com/NetSys/cs168fall17_student/blob/master/projects/proj3_wanoptimizer). You can download the code manually from that page, or use git.
 - You'll submit your code using `ok`. You should submit two files: one named `simple_wan_optimizer.py` (for part 1) and one named `lbfs_wan_optimizer.py` (for part 2). You should not modify or submit the other python files provided.
 
 #### Resources
