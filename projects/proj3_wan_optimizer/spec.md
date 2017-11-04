@@ -299,4 +299,4 @@ This means that the client on the receiving side is never receiving a packet tha
 
 ## Changelog
 
-Updates/changes to the project will go here.
+**11/4, 2:33 PM:** Clarify that project can be completed on Windows, Linux or Mac OS X, provided that the submitted project runs on a Linux system using Python 2.  There are two known issues right now for students developing on Windows (see posts 895 and 903 on Piazza) ; please stay tuned for updates.
