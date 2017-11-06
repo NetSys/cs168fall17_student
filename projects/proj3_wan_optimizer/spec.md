@@ -132,7 +132,7 @@ You can assume all packets arrive in-order, and that there's no packet loss.
 
 #### Should all of the tests pass for my part 1 WAN optimizer?
 
-Yes.  You'll notice that the implementation provided in `simple_wan_optimizer.py` forwards packets without any data reduction, and if you run the tests with the provided code, all but 2 of the tests will pass.  This is because the remaining tests check for correctness, and may fail as you implement the WAN optimizer functionality.
+Yes.  You'll notice that the implementation provided in `simple_wan_optimizer.py` forwards packets without any data reduction, and if you run the tests with the provided code, all but 3 of the tests will pass.  This is because the remaining tests check for correctness, and may fail as you implement the WAN optimizer functionality.
 
 ## Part 2
 
@@ -301,3 +301,4 @@ This means that the client on the receiving side is never receiving a packet tha
 
 **11/4, 2:33 PM:** Clarify that project can be completed on Windows, Linux or Mac OS X, provided that the submitted project runs on a Linux system using Python 2.  There are two known issues right now for students developing on Windows (see posts 895 and 903 on Piazza) ; please stay tuned for updates.
 **11/5, 6:15 PM:** Patch up test framework for Windows users who are seeing the following error : The process cannot access the file because it is being used by another process.  The changes have been pushed to the repo.
+**11/6, 12:41 PM:** Fix spec - you should be failing 3 tests with the skeleton code for part 1.  For part 2, you will fali 6 tests.
