@@ -223,10 +223,5 @@ def main():
     else:
         print "{}Failed {}/{} tests{}".format(RED, total_tests - passed_tests, total_tests, CLEAR)
 
-    files = os.listdir('.')
-    for file in files:
-        if file.endswith("_output"):
-            os.remove(file)
-
 if __name__ == "__main__":
     main()
