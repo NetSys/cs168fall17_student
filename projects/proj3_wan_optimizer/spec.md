@@ -304,6 +304,9 @@ Take a look at send_file in client.py to see how the filename is transmitted.  A
 ## Changelog
 
 **11/4, 2:33 PM:** Clarify that project can be completed on Windows, Linux or Mac OS X, provided that the submitted project runs on a Linux system using Python 2.  There are two known issues right now for students developing on Windows (see posts 895 and 903 on Piazza) ; please stay tuned for updates.
+
 **11/5, 6:15 PM:** Patch up test framework for Windows users who are seeing the following error : The process cannot access the file because it is being used by another process.  The changes have been pushed to the repo.
+
 **11/6, 12:41 PM:** Fix spec - you should be failing 3 tests with the skeleton code for part 1.  For part 2, you will fail 6 tests.
+
 **11/7, 2:00 PM:** Add FAQ entry for file name errors.
