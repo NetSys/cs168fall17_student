@@ -297,8 +297,13 @@ If you see messages like
     
 This means that the client on the receiving side is never receiving a packet that has `is_fin` set to true, so isn't saving the received data to a file.  Check to make sure that the WAN optimizer on the receiving end is correctly sending FIN packtes.
 
+#### I'm getting errors regarding the file name (i.e. file name too long, filename delimiter not found).
+
+Take a look at send_file in client.py to see how the filename is transmitted.  At a high level, the filename + filename delimiter is the beginning of the data you send, so make sure those are being transmitted properly.  Common sources of error are not sending fins proprerly, not resetting your buffers correctly, and sending hashes to clients.
+
 ## Changelog
 
 **11/4, 2:33 PM:** Clarify that project can be completed on Windows, Linux or Mac OS X, provided that the submitted project runs on a Linux system using Python 2.  There are two known issues right now for students developing on Windows (see posts 895 and 903 on Piazza) ; please stay tuned for updates.
 **11/5, 6:15 PM:** Patch up test framework for Windows users who are seeing the following error : The process cannot access the file because it is being used by another process.  The changes have been pushed to the repo.
 **11/6, 12:41 PM:** Fix spec - you should be failing 3 tests with the skeleton code for part 1.  For part 2, you will fail 6 tests.
+**11/7, 2:00 PM:** Add FAQ entry for file name errors.
