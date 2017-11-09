@@ -13,6 +13,7 @@ class BasicServer(object):
     def start(self):
         while True:
             (new_socket, address) = self.socket.accept()
+            print(new_socket)
             msg = new_socket.recv(1024)
             tmp = msg
             while tmp:
