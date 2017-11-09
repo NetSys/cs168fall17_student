@@ -30,7 +30,7 @@ class LearningSwitch(api.Entity):
         You probably want to do something in this method.
 
         """
-        pass
+        self.routing_table = {}
 
     def handle_link_down(self, port):
         """
@@ -40,7 +40,15 @@ class LearningSwitch(api.Entity):
         valid here.
 
         """
-        pass
+
+        entities_to_delete = []
+        for entity in self.routing_table: # determine which entries need to be delted
+            if self.routing_table[entity] == port:
+                entities_to_delete.append(entity)
+        for entity in entities_to_delete: # delete those entries 
+            self.routing_table.pop(entity)
+
+
 
     def handle_rx(self, packet, in_port):
         """
@@ -61,6 +69,17 @@ class LearningSwitch(api.Entity):
         if isinstance(packet, basics.HostDiscoveryPacket):
             # Don't forward discovery messages
             return
+
+        dest = packet.dst
+        src = packet.src
+
+        if src not in self.routing_table:
+            self.routing_table[src] = in_port
+
+        if dest in self.routing_table:
+            out_port = self.routing_table[dest]
+            self.send(packet, out_port)
+            return 
 
         # Flood out all ports except the input port
         self.send(packet, in_port, flood=True)
