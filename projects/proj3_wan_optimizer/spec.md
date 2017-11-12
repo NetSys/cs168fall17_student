@@ -46,7 +46,7 @@ __The only files you should modify are `simple_wan_optimizer.py` and `lbfs_wan_o
 
 ## Part 1
 
-The first part of the assignment will help you get started with some middlebox functionality by implementing simple data de-duplication.  For this part of the assignment, you should fill in the `receive` method if the `WanOptimizer` class defined in `simple_wan_optimizer.py`.
+The first part of the assignment will help you get started with some middlebox functionality by implementing simple data de-duplication.  For this part of the assignment, you should fill in the `receive` method of the `WanOptimizer` class defined in `simple_wan_optimizer.py`.
 
 To understand the functionality you should implement in part 1, let's walk through a simple example.  Suppose the following data is sent over the network:
 
